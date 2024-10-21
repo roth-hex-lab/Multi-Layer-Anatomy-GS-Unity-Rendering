@@ -1,6 +1,6 @@
 # Adapted Multi-Layer Gaussian Splatting rendering package for Unity
 
-This is the rendering package for `Multi-Layer Gaussian Splatting for Immersive Anatomy Visualization`. It has been adapted to render multi-layer Gaussian Splatting point clouds in Unity, and has improved compatability with VR headsets. See the other repositories related to this work here: https://github.com/roth-hex-lab/Multi-Layer-Anatomy-GS-Unity-Rendering 
+This is the rendering package for `Multi-Layer Gaussian Splatting for Immersive Anatomy Visualization`. It has been adapted to render multi-layer Gaussian Splatting point clouds in Unity, and has improved compatability with VR headsets. See the other repositories related to this work here: https://github.com/roth-hex-lab/Multi-Layer-Gaussian-Splatting-for-Immersive-Anatomy-Visualization
 
 Follow the original steps to create a compressed GS representation in Unity, each layer will have it's own assets. To render, use the included `GaussianSplatRenderer.cs` script which has been extended to allow selection of which layers to show. Similarly, the `GaussianCutout.cs` script has support for cutting through specified layers.
 
